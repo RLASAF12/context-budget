@@ -70,4 +70,4 @@ Total: 40,271 tokens (80.5% of budget) — ⚠️ NEAR LIMIT
 
 ## Built by
 
-Ben (prototype builder agent) in the ABC-TOM workspace system, 2026-05-26.
+[Harel Asaf](https://github.com/RLASAF12) · 2026-05-26
