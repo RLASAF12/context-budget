@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-budget"
+version = "0.1.0"
+description = "Claude Code context window budget calculator — know your token cost before you load"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Harel Asaf" }]
+keywords = ["cli", "ai", "llm", "context-window", "token", "claude-code", "tiktoken"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+]
+
+[project.urls]
+Homepage = "https://github.com/RLASAF12/context-budget"
+Issues = "https://github.com/RLASAF12/context-budget/issues"
+
+[project.scripts]
+context-budget = "context_budget:main"
+
+[tool.setuptools]
+py-modules = ["context_budget"]
