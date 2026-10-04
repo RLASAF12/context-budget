@@ -1,3 +1,5 @@
+> **Archived.** This repo moved to [RLASAF12/agent-guardrails](https://github.com/RLASAF12/agent-guardrails/tree/main/context-budget) (folder `context-budget/`, full history preserved). Archived 2026-10-04.
+
 # context-budget
 
 > Know your token cost before you load.
